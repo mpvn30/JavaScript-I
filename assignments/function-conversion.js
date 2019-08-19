@@ -47,3 +47,9 @@ subtract(1,2);
 //   return num * 3;
 // });
 // console.log(triple);
+const numbers = [1, 2, 3, 4];
+const triple = numbers.map((num) => {
+    return num * 3;
+});
+
+console.log(triple);
